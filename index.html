@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+    crossorigin="anonymous" ></script>
     <title>WEATHERforTRAINING</title>
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
+<body>
+<!--Header-->
+  <div class="header">
+   <h1>WEATHERforTRAINING</h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="city">
+          <h2>Search for a City</h2>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="searchCity" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            </div>
+          </div>
+          <div class="favoriteCity"></div>
+      </div>
+      <div class="weather">
+          2 of 3 (wider)
+      </div>
+    </div>
+  </div>
+
+  <div class="card-footer text-muted" id="footer">
+    copyright
+  </div>
+
+  <script src="/assets/javascript/script.js"></script>
 
 </body>
 </html>
